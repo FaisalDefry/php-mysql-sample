@@ -2,8 +2,12 @@
 
 # Git Clone
 ```
-git clone https://github.com/FaisalDefry/php-mysql-sample/blob/master/README.md
+git clone https://github.com/FaisalDefry/php-mysql-sample
+
+cd php-mysql-sample
+
 ````
+
 
 # Install Docker compose
 ````
