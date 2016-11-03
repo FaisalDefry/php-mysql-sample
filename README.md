@@ -1,25 +1,9 @@
-# Docker Compose PHP+MYSQL on OSX
-
-This setup is great for writing quick apps in PHP from an OSX machine. It uses Virtualbox and machine to create the actual environment and then uses compose to setup the application services
+# Docker Compose PHP+MYSQL on Docker
 
 
-### Install docker, compose, and machine
+# Install Docker compose
 
-```
-brew update
-brew install docker docker-compose docker-machine
-```
-
-
-### InstallVirtualbox
-[Download Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-
-### Setup docker environment
-
-```
-docker-machine create -d virtualbox dev
-docker-machine start dev
-eval $(docker-machine env dev)
+cp docker-compose /usr/local/bin/docker-compose
 ```
 
 ### Build & Run!
