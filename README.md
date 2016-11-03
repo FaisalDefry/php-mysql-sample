@@ -1,5 +1,9 @@
 # Docker Compose PHP+MYSQL on Docker
 
+# Git Clone
+```
+git clone https://github.com/FaisalDefry/php-mysql-sample/blob/master/README.md
+````
 
 # Install Docker compose
 ````
