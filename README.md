@@ -2,7 +2,7 @@
 
 
 # Install Docker compose
-
+````
 cp docker-compose /usr/local/bin/docker-compose
 ```
 
